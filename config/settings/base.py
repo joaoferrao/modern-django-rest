@@ -43,6 +43,8 @@ DJANGO_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'project.api',
+    'rest_framework',
 )
 
 THIRD_PARTY_APPS = (
@@ -147,3 +149,6 @@ STATICFILES_FINDERS = (
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = str(APPS_DIR('media'))
+
+REST_FRAMEWORK = {
+}
